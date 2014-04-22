@@ -24,6 +24,7 @@
 		C0985A6519051B5C0008AF8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0985A3D19051B5C0008AF8A /* Foundation.framework */; };
 		C0985A6D19051B5C0008AF8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0985A6B19051B5C0008AF8A /* InfoPlist.strings */; };
 		C0985A7019051B5C0008AF8A /* contact_sync_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0985A6F19051B5C0008AF8A /* contact_sync_iosTests.m */; };
+		C0ADFF5119066A9E002E400B /* SnailNetWorkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ADFF5019066A9E002E400B /* SnailNetWorkUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		C0985A6C19051B5C0008AF8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0985A6E19051B5C0008AF8A /* contact_sync_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contact_sync_iosTests.h; sourceTree = "<group>"; };
 		C0985A6F19051B5C0008AF8A /* contact_sync_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = contact_sync_iosTests.m; sourceTree = "<group>"; };
+		C0ADFF4F19066A9E002E400B /* SnailNetWorkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SnailNetWork\U0018Utils.h"; sourceTree = "<group>"; };
+		C0ADFF5019066A9E002E400B /* SnailNetWorkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SnailNetWork\U0018Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 		C0985A4119051B5C0008AF8A /* contact-sync-ios */ = {
 			isa = PBXGroup;
 			children = (
+				C0ADFF4E19066A4A002E400B /* httpclient */,
 				C0985A4A19051B5C0008AF8A /* SnailAppDelegate.h */,
 				C0985A4B19051B5C0008AF8A /* SnailAppDelegate.m */,
 				C0985A5319051B5C0008AF8A /* MainStoryboard.storyboard */,
@@ -163,6 +167,15 @@
 				C0985A6B19051B5C0008AF8A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0ADFF4E19066A4A002E400B /* httpclient */ = {
+			isa = PBXGroup;
+			children = (
+				C0ADFF4F19066A9E002E400B /* SnailNetWorkUtils.h */,
+				C0ADFF5019066A9E002E400B /* SnailNetWorkUtils.m */,
+			);
+			name = httpclient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +293,7 @@
 				C0985A4C19051B5C0008AF8A /* SnailAppDelegate.m in Sources */,
 				C0985A5819051B5C0008AF8A /* SnailMasterViewController.m in Sources */,
 				C0985A5B19051B5C0008AF8A /* SnailDetailViewController.m in Sources */,
+				C0ADFF5119066A9E002E400B /* SnailNetWorkUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				C0985A7519051B5C0008AF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0985A7619051B5C0008AF8A /* Build configuration list for PBXNativeTarget "contact-sync-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				C0985A7819051B5C0008AF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
