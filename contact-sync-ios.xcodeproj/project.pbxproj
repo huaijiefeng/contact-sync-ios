@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02545F6190A370B001FA405 /* SnailLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02545F5190A370B001FA405 /* SnailLoginViewController.m */; };
+		C02545F9190A5FDE001FA405 /* SnailMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02545F8190A5FDE001FA405 /* SnailMainViewController.m */; };
 		C0985A3C19051B5C0008AF8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0985A3B19051B5C0008AF8A /* UIKit.framework */; };
 		C0985A3E19051B5C0008AF8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0985A3D19051B5C0008AF8A /* Foundation.framework */; };
 		C0985A4019051B5C0008AF8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0985A3F19051B5C0008AF8A /* CoreGraphics.framework */; };
@@ -17,8 +19,6 @@
 		C0985A5019051B5C0008AF8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0985A4F19051B5C0008AF8A /* Default@2x.png */; };
 		C0985A5219051B5C0008AF8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0985A5119051B5C0008AF8A /* Default-568h@2x.png */; };
 		C0985A5519051B5C0008AF8A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0985A5319051B5C0008AF8A /* MainStoryboard.storyboard */; };
-		C0985A5819051B5C0008AF8A /* SnailMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0985A5719051B5C0008AF8A /* SnailMasterViewController.m */; };
-		C0985A5B19051B5C0008AF8A /* SnailDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0985A5A19051B5C0008AF8A /* SnailDetailViewController.m */; };
 		C0985A6319051B5C0008AF8A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0985A6219051B5C0008AF8A /* SenTestingKit.framework */; };
 		C0985A6419051B5C0008AF8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0985A3B19051B5C0008AF8A /* UIKit.framework */; };
 		C0985A6519051B5C0008AF8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0985A3D19051B5C0008AF8A /* Foundation.framework */; };
@@ -38,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C02545F4190A370B001FA405 /* SnailLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnailLoginViewController.h; sourceTree = "<group>"; };
+		C02545F5190A370B001FA405 /* SnailLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnailLoginViewController.m; sourceTree = "<group>"; };
+		C02545F7190A5FDE001FA405 /* SnailMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnailMainViewController.h; sourceTree = "<group>"; };
+		C02545F8190A5FDE001FA405 /* SnailMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnailMainViewController.m; sourceTree = "<group>"; };
 		C0985A3819051B5C0008AF8A /* contact-sync-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contact-sync-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0985A3B19051B5C0008AF8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0985A3D19051B5C0008AF8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,10 +56,6 @@
 		C0985A4F19051B5C0008AF8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C0985A5119051B5C0008AF8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C0985A5419051B5C0008AF8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C0985A5619051B5C0008AF8A /* SnailMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnailMasterViewController.h; sourceTree = "<group>"; };
-		C0985A5719051B5C0008AF8A /* SnailMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnailMasterViewController.m; sourceTree = "<group>"; };
-		C0985A5919051B5C0008AF8A /* SnailDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnailDetailViewController.h; sourceTree = "<group>"; };
-		C0985A5A19051B5C0008AF8A /* SnailDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnailDetailViewController.m; sourceTree = "<group>"; };
 		C0985A6119051B5C0008AF8A /* contact-sync-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "contact-sync-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0985A6219051B5C0008AF8A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C0985A6A19051B5C0008AF8A /* contact-sync-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "contact-sync-iosTests-Info.plist"; sourceTree = "<group>"; };
@@ -90,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C02545F3190A36B9001FA405 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				C02545F4190A370B001FA405 /* SnailLoginViewController.h */,
+				C02545F5190A370B001FA405 /* SnailLoginViewController.m */,
+				C02545F7190A5FDE001FA405 /* SnailMainViewController.h */,
+				C02545F8190A5FDE001FA405 /* SnailMainViewController.m */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
 		C0985A2F19051B5C0008AF8A = {
 			isa = PBXGroup;
 			children = (
@@ -123,14 +134,11 @@
 		C0985A4119051B5C0008AF8A /* contact-sync-ios */ = {
 			isa = PBXGroup;
 			children = (
+				C02545F3190A36B9001FA405 /* ui */,
 				C0ADFF4E19066A4A002E400B /* httpclient */,
 				C0985A4A19051B5C0008AF8A /* SnailAppDelegate.h */,
 				C0985A4B19051B5C0008AF8A /* SnailAppDelegate.m */,
 				C0985A5319051B5C0008AF8A /* MainStoryboard.storyboard */,
-				C0985A5619051B5C0008AF8A /* SnailMasterViewController.h */,
-				C0985A5719051B5C0008AF8A /* SnailMasterViewController.m */,
-				C0985A5919051B5C0008AF8A /* SnailDetailViewController.h */,
-				C0985A5A19051B5C0008AF8A /* SnailDetailViewController.m */,
 				C0985A4219051B5C0008AF8A /* Supporting Files */,
 			);
 			path = "contact-sync-ios";
@@ -291,9 +299,9 @@
 			files = (
 				C0985A4819051B5C0008AF8A /* main.m in Sources */,
 				C0985A4C19051B5C0008AF8A /* SnailAppDelegate.m in Sources */,
-				C0985A5819051B5C0008AF8A /* SnailMasterViewController.m in Sources */,
-				C0985A5B19051B5C0008AF8A /* SnailDetailViewController.m in Sources */,
 				C0ADFF5119066A9E002E400B /* SnailNetWorkUtils.m in Sources */,
+				C02545F6190A370B001FA405 /* SnailLoginViewController.m in Sources */,
+				C02545F9190A5FDE001FA405 /* SnailMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
