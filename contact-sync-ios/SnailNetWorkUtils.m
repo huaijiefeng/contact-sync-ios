@@ -13,7 +13,7 @@
  
 
 -(void) login: (NSString*) username setPassword: (NSString*) password{
-    NSURL *url = [NSURL URLWithString:@"http://mycontactsync.sinaapp.com/login/?username=7&password=1"];
+    NSURL *url = [NSURL URLWithString:@"http://mycontactsync.sinaapp.com/login/?username=22&password=1"];
 
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:10]; 
     
